@@ -9,7 +9,12 @@
 </head>
 <body>
     <h1>Imagem Flexível</h1>
-    <p>Você está vendo a imagem completa? Experimente ampliar o tamanho da janela para aproveitar a melhor experiência.</p>
-    <img src="imagens/paisagem-m.png" alt="paisagem">
+    <p>Você está vendo a imagem completa? Experimente ampliar o tamanho da janela para aproveitar a melhor experiência. &#x1F92F;</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/paisagem-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/paisagem-m.png" type="image/png">
+        <img src="imagens/paisagem-g.png" alt="paisagem">
+    </picture>
 </body>
 </html>
