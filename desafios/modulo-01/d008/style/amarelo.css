@@ -1,3 +1,7 @@
 body {
-    background-color: yellow;
+    background-color: #fffee0;
+}
+
+h1, p {
+    color: #c5874e;
 }
