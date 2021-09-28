@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
+    background-color: rgb(184, 17, 40);
+    border-radius: 5px;
+}
+
+#video, #videos {
+    text-align: center;
+    width: 1350px; 
+    height: 280px; 
+    border: 3px solid rgb(177, 6, 6);
+}
+
+#voltar{
+    text-align: center;
+}
+
+strong {
+    color: white;
+}
