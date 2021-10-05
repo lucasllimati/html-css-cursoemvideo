@@ -7,20 +7,51 @@
     <title>Modelo de Caixa</title>
     <style>
         h1 {
+            /* box-level */
             background-color: lightgray;
             height: 300px;
             width: 300px;
-            border-width: 10px;
+
+            /* border-width: 10px;
             border-style: solid;
-            border-color: darkslategray;
+            border-color: darkslategray; */
+
+            /* Shorthand border */
+            border: 10px solid darkslategray;
             
-            padding-top:  10px;
+            /* padding-top:  10px;
             padding-right: 10px;
             padding-bottom: 10px;
-            padding-left: 10px;
+            padding-left: 10px; */
+            
+            /* Shorthand padding */
+            /* padding: 10px 10px 10px 10px; */
+            /* padding: 10px 20px; */
+            padding: 10px;
+            
+            /* Centraliza a caixa no meio */
+            /* margin: auto; */
+            
+            /* margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom: 40px;
+            margin-left: 20px; */
+                        
+            /* Shorthand margin */
+            /* Para deixar a caixa centralizada nas laterais */
+            /* margin: 20px auto 40px auto; */
+            margin: 20px 20px 40px 20px;
+            
+            /* outline-width: 5px;
+            outline-style: dashed;
+            outline-color: salmon; */
+
+            /* Shorthand outline */
+            outline: 5px dashed salmon;
         }
 
         a {
+            /* inline-level */
             border-width: 10px;
             border-style: solid;
             border-color: red;
