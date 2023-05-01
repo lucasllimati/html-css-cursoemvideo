@@ -7,7 +7,7 @@
 
 **Módulo 2** -   [Link](https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/)
 
-**Módulo 3** -   [Link]()
+**Módulo 3** -   [Link](https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-3-de-5-40-horas/)
 
 **Módulo 4** -   [Link]()
 
